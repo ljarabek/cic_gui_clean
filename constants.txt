@@ -1,0 +1,20 @@
+from user import user  # from cic_gui.user import user
+
+NIH_DIR = ""
+DATASET_DIR = ""  # this makes dataset folder in cic_gui directory when running generator/main.py !!
+WORDS_TXT = ""
+FILIP_ROOT = ""
+
+# server constants
+server_opt = {}
+
+
+NIH_DIR = "/media/leon/2tbssd/NIH14/"
+DATASET_DIR = "/media/leon/2tbssd/cic_gui/DATASET/"  # this makes dataset folder in cic_gui directory when running generator/main.py !!
+WORDS_TXT = "/media/leon/2tbssd/cic_gui/constants/words.txt"
+FILIP_ROOT = "/home/leon/Pictures/"
+#TEST_IMG = "/home/leon/Pictures/test.png"
+MODEL_DIR = "/media/leon/2tbssd/cic_gui/model_0.pth"
+server_opt = {'TCP_IP': "127.0.0.1", 'TCP_PORT': 5005, 'BUFFER_SIZE': 1024, 'send_all_images': True, 'HEADER_SIZE': 10, }
+DATASET_DIR_mini = "/media/leon/2tbssd/cic_gui/DATASET_mini/"  # this makes dataset folder in cic_gui directory when running generator/main.py !!
+CHEXPERT_MODEL = "/media/leon/2tbssd/cic_gui/CSN_model.pth"
